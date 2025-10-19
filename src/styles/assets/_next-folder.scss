@@ -1,0 +1,38 @@
+.next-folder {
+  &__content{
+    height: 100px;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 260px;
+  }
+  #cross-country {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../../images/slide1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  #tennis {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../../images/slide2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #cross-country2 {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../../images/slide3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #yachting {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../../images/slide4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  #kayak {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../../images/slide5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

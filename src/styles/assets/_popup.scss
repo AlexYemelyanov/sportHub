@@ -1,0 +1,115 @@
+.popup {
+  position: absolute;
+  background-color: #F01B0D;
+  left: 15%;
+  top: 0;
+  height: 750px;
+  padding: 30px 45px;
+  &__header {
+    margin-bottom: 76px;
+    &-logo{
+        a svg path {
+          fill: #fff;
+        }
+      }
+    }
+  &__main {
+    margin-bottom: 110px;
+    display: flex;
+    justify-content: center;
+    height: 274px;
+    .popup__nav-sections,
+    .popup__nav-sports,
+    .popup__nav-about {
+      display: flex;
+      flex-direction: column;
+      margin-right: 40px;
+      justify-content: space-between;
+      a {
+        color: #fff;
+        position: relative;
+      }
+      a::after {
+              position: absolute;
+              content: '';
+              bottom: 0;
+              display: block;
+              width: 0;
+              height: 2px;
+              transition: .3s;
+              background: #fff;
+            }
+            a::after {
+                left: 50%;
+                transform: translate(-50%);
+              }
+            a:hover::after {
+              width: 100%;
+            }
+    }
+    .popup__nav-sections {
+      text-transform: uppercase;
+    }
+    .popup__nav-about {
+      height: 65px;
+      text-transform: uppercase;
+    }
+  }
+  &__social {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 75px;
+        a {
+          margin-right: 10px;
+        }
+        a:hover {
+          transform: scale(0.7);
+        }
+      }
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    &-adv {
+      h5 {
+        margin-bottom: 15px;
+      }
+      a {
+        color: #fff;
+        font-weight: 300;
+        font-size: 0.875;
+      }
+    }
+    &-subscr {
+      h5 {
+        margin-bottom: 15px;
+      }
+      form {
+        #subscr-email{
+        width: 300px;
+        border-bottom:1px solid #fff;
+        height: 40px;
+        padding-left: 10px;
+        color: #fff;
+        placeholder{
+          color: #fff;
+        }
+        }
+        .popup__customBtn {
+          border-radius: 100px;
+          width: 201px;
+          height: 40px;
+          background-color: #fff;
+          color:#F01B0D;
+          transition: transform 0.3s ease-in-out;
+        }
+        .popup__customBtn:hover {
+          transform: scale(0.8);
+        }
+        .popup__customBtn:active {
+          background-color: #e2e2e2;
+        }
+      }
+    }
+  }
+}

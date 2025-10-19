@@ -1,0 +1,30 @@
+.slider {
+  width: 1920px;
+  height: 536px;
+  .special__slider {
+    height: 536px;
+    width: 400%;
+    display: flex;
+    position: relative;
+    left: 0;
+    overflow: hidden;
+    &-slide {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .next-folder__slider {
+    height: 536px;
+    width: 500%;
+    display: flex;
+    position: relative;
+    left: 0;
+    overflow: hidden;
+    &-slide {
+      width: 100%;
+      height: 100%;
+    } 
+  }
+
+  
+}

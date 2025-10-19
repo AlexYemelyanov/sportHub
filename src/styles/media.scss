@@ -1,0 +1,555 @@
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 1024px;
+    &.header {
+      height: 580px;
+      background: linear-gradient(180deg,rgba(0, 0, 0, 1) 1%, rgba(186, 186, 186, 0) 50%, rgba(0, 0, 0, 0.8) 92%), url('../images/bg_main_laptop.jpg');
+      background-size: 768px 580px;
+    }
+  }
+  .container {
+    width: 1024px;
+    padding: 10px;
+  }
+  .header {
+    margin-bottom: 40px;
+    &__top-nav{
+      flex-basis: 5%;
+      .nav__items {
+        display: none;
+      }
+    }
+    &__nav-sports {
+      width: 1024px;
+      left: -10px;
+      .sports__items {
+        .sports__item {
+          margin-right: 30px;
+        }
+        .sports_item:first-child {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  .news {
+    margin-bottom: 40px;
+    &__template{
+      grid-template-columns: repeat(2, 510px);
+      grid-template-rows: 480px 480px 300px 480px;
+      img, p, h3{
+      margin-bottom: 10px;
+          }
+      .news__block {
+      width: 500px;
+      height: 480px;
+      margin-bottom: 60px;
+      &-descr {
+        font-size: 1em;
+      }
+    }
+    .news__comments {
+      .news__comment{
+      &-text {
+        font-size: 1em;
+      }
+    }
+    }
+    }
+    
+    
+  }
+  .special {
+    margin-bottom: 40px;
+  }
+
+  .public {
+    &__container {
+      width: 1024px;
+    }
+    &__social,
+    &__subscr {
+      width: 505px;
+      height: 225px;
+      &-items{
+        height: 225px;
+      }
+    }
+    .public__subscr {
+      &-form{
+      width: 270px;
+      height: 225px;
+      #subscr-email {
+        width: 200px;
+        margin-bottom: 20px;
+      }
+    }
+    }
+  }
+  .slider {
+    width: 1024px;
+    .special__slider {
+      width: 300%;
+    }
+  }
+  .popup {
+    left: 0;
+    padding: 10px;
+    &__footer {
+      &-subscr {
+        margin-right: 20px;
+        form {
+          #subscr-email {
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 768px;
+  }
+  .container {
+    width: 768px;
+  }
+  .header {
+    margin-bottom: 40px;
+    &__top-nav{
+      flex-basis: 5%;
+      .nav__items {
+        display: none;
+      }
+    }
+    &__nav-sports {
+      width: 768px;
+      left: -10px;
+      padding-left: 5px;
+      .sports__items {
+        .sports__item {
+          margin-right: 30px;
+        }
+        .sports_item:first-child {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+    .news {
+    margin-bottom: 40px;
+    &__template{
+      grid-template-columns: repeat(2, 380px);
+      grid-template-rows: 480px 480px 580px 480px;
+      gap: 0;
+      img, p, h3{
+      margin-bottom: 10px;
+          }
+      .news__block {
+      width: 360px;
+      height: 480px;
+      margin-bottom: 60px;
+      &-descr {
+        font-size: 1em;
+      }
+    }
+    .news__comments {
+      .news__comment{
+      &-text {
+        font-size: 1em;
+      }
+    }
+    }
+    .news__comments {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      height: 580px;
+    }
+      
+    }
+    
+    
+  }
+  .special {
+    margin-bottom: 40px;
+    height: 276px;
+    .special__slider {
+      &-content {
+    margin-top: 60px;
+  }
+       .cross-country {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide1-768.png');
+
+    
+  }
+  .tennis {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide2-768.png');
+
+  }
+  .cross-country2 {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide3-768.png');
+
+  }
+  .yachting {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide4-768.png');
+
+    
+  }
+    }
+  }
+  .public {
+    &__container {
+      width: 768px;
+    }
+    &__social,
+    &__subscr {
+      width: 485px;
+      height: 180px;
+      &-items{
+        height: 180px;
+        a {
+          margin-right: 10px;
+        }
+      }
+    }
+    .public__subscr {
+      &-form{
+      width: 225px;
+      height: 180px;
+      padding-left: 10px;
+      #subscr-email {
+        width: 200px;
+        margin-bottom: 20px;
+      }
+    }
+    }
+  }
+  .next-folder {
+    height: 276px;
+    &-content{
+      margin-top: 60px;
+    }
+    &-slider {
+      height: 276px;
+    }
+    #cross-country {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide1-768.png');
+    background-repeat: no-repeat;
+  }
+  #tennis {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide2-768.png');
+    background-repeat: no-repeat;
+  }
+  #cross-country2 {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide3-768.png');
+    background-repeat: no-repeat;
+  }
+  #yachting {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide4-768.png');
+    background-repeat: no-repeat;
+  }
+  #kayak {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide5-768.png');
+    background-repeat: no-repeat;
+  }
+  }
+  .slider {
+    width: 768px;
+    .special__slider {
+      height: 276px;
+    }
+    .next-folder__slider {
+      height: 276px;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    font-size: 14px;
+  }
+  .wrapper {
+    width: 100%;
+    &.header {
+      height: 250px;
+      background: linear-gradient(180deg,rgba(0, 0, 0, 1) 1%, rgba(186, 186, 186, 0) 50%, rgba(0, 0, 0, 0.8) 92%), url('../images/bg_main_laptop.jpg');
+      background-size: 320px 250px;
+    }
+  }
+  .container {
+    width: 100%;
+    padding: 5px;
+  }
+  header{
+    margin-bottom: 30px;
+  }
+  .header {
+    margin-bottom: 30px;
+    &__top{
+      margin-bottom: 40px;
+    }
+    &__top-nav{
+      flex-basis: 25%;
+      .nav__items {
+        display: none;
+      }
+    }
+    &__main-news {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 20px;
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+    &__nav-sports {
+      display: none;
+    }
+  }
+    .news {
+    margin-bottom: 30px;
+    padding: 0 50px;
+    &__template{
+      display: grid;
+      grid-template-columns: repeat(1, 290px);
+      grid-template-rows: repeat(7, 350px);
+      gap: 8px;
+      img, p, h3{
+      margin-bottom: 5px;
+        }
+      .news__block {
+      width: 290px;
+      height: 290px;
+      margin-bottom: 10px;
+      &-label{
+        font-size: 12px;
+      }
+      h3 {
+        font-size: 16px;
+      }
+      &-descr{
+        font-size: 14px;
+      }
+      &-cover {
+        background: linear-gradient(180deg,rgba(15, 26, 43, 0.85) 100%, rgba(0, 0, 0, 0.85) 10%), url('../images/news3-320.png');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      &.block1 {
+      grid-row-start: 1;
+      
+    }
+      &.block2{
+      grid-row-start: 2; 
+    }
+    
+        &.block3{
+      grid-row-start: 3; 
+    }
+      &.block4{
+      grid-row-start: 4; 
+    }
+
+        &.block5 {
+        grid-row-start: 6;   
+    }
+    &.block6 {
+        grid-row-start: 7;   
+    }
+      &-descr {
+        font-size: 1em;
+      }
+    }
+    .news__comments {
+      height: 290px;
+      .news__comment{
+        display: none;
+      &-text {
+        font-size: 1em;
+      }
+    }
+    }
+    .news__comments {
+      display: flex;
+    }
+    .news__comments :first-child {
+      display: flex;
+    }
+    
+  }
+  }
+  .special {
+    margin-bottom: 30px;
+    height: 276px;
+    .special__slider {
+      &-content {
+    margin-top: 60px;
+    width: 320px;
+    h2{
+      font-size: 20px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+      .cross-country {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide1-320.png');
+
+    
+  }
+  .tennis {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide2-320.png');
+
+  }
+  .cross-country2 {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide3-320.png');
+
+  }
+  .yachting {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide4-320.png');
+
+    
+  }
+    }
+  }
+  .public {
+    height: 480px;
+    &__container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    &__social,
+    &__subscr {
+      width: 100%;
+      height: 180px;
+      margin-bottom: 60px;
+      
+      &-items{
+        height: 180px;
+        flex-wrap: wrap;
+        a {
+          margin-right: 10px;
+        }
+      }
+    }
+    .public__subscr {
+      &-form{
+      width: 100%;
+      height: 180px;
+      padding: 34px 40px;
+      #subscr-email {
+        width: 200px;
+        margin-bottom: 20px;
+      }
+    }
+    }
+  }
+  .next-folder {
+    .wrapper {
+      height: 276px;
+      .slider {
+        height: 276px;
+      }
+    }
+    height: 276px;
+    &__content{
+      margin-top: 100px;
+      width: 260px;
+      padding-right: 28px;
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    &__slider {
+      height: 276px;
+      &-slide {
+        .container {
+          height: 276px;
+        }
+      }
+    }
+    #cross-country {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide1-320.png');
+    background-repeat: no-repeat;
+  }
+  #tennis {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide2-320.png');
+    background-repeat: no-repeat;
+  }
+  #cross-country2 {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide3-320.png');
+    background-repeat: no-repeat;
+  }
+  #yachting {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide4-320.png');
+    background-repeat: no-repeat;
+  }
+  #kayak {
+    background:linear-gradient(180deg,rgba(57, 57, 57, 0.5) 100%, rgba(0, 0, 0, 0.5) 11%), url('../images/slide5-320.png');
+    background-repeat: no-repeat;
+  }
+  }
+  .slider {
+    width: 320px;
+    .special__slider {
+      height: 276px;
+    }
+    .next-folder__slider {
+      height: 276px;
+    }
+  }
+  footer .footer__wrapper {
+    padding: 24px 15px;
+    width: 100%;
+    height: 503px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column; 
+    align-content: center;
+    align-items: center;
+
+    &__top {
+      flex-direction: column;
+      align-items: center;
+      &-logo {
+        margin-bottom: 40px;
+      }
+      .nav__items {
+        flex-direction: column;
+        .nav__item{
+          justify-content: center;
+          margin-bottom: 40px;
+        }
+      }
+      &-adv{
+        text-align: center;
+      }
+    }
+    &__social-section {
+      .footer__social {
+        flex-wrap: wrap;
+      }
+    }
+    &__dev-info {
+      flex-direction: column;
+      align-items: center;
+      font-size: 12px;
+      &--year {
+        margin-bottom: 14px;
+      }
+      &--comp {
+        margin-left: -35px;
+      }
+    }
+  }
+}

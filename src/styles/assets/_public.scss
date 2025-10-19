@@ -1,0 +1,82 @@
+.public {
+  height: 285px;
+  margin-bottom: 60px;
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1400px;
+  }
+  &__social,
+  &__subscr {
+    flex-direction: column;
+    width: 680px;
+    &-items {
+      height: 180px;
+      background-color: #F01B0D;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        display: block;
+        margin-right: 24px;
+        svg {
+          rect {
+            fill: #F01B0D ;
+            transition: all 0.3s ease-in-out;
+          }
+          path {
+            fill: #fff;
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+      a:hover {
+        svg{
+          rect {
+            fill: #fff;
+          }
+          path {
+            fill: #F01B0D;
+          }
+        }
+      }
+    }
+    h4 {
+      margin-bottom: 24px;
+    }
+  }
+  .public__subscr {
+      &-form {
+        width: 680px;
+        height: 180px;
+        background-color: #1a0000;
+        align-content: center;
+        padding-left: 40px;
+        #subscr-email{
+          width: 380px;
+          border-bottom:1px solid #fff;
+          height: 40px;
+          padding-left: 10px;
+          color: #fff;
+        }
+        #subscr-email:focus {
+          color: #1a0000;
+          background-color: #fff;
+          border-radius: 5px;
+        }
+        .public__customBtn {
+          background-color: #F01B0D;
+          color: #fff;
+
+        }
+        .public__customBtn:hover {
+          background-color: #F01B0D;
+          box-shadow:5px 3px 3px #790f07;
+          color: #fff;  
+        }
+        .public__customBtn:active {
+          background-color: #aa1309;
+        }
+      }
+    }
+}
